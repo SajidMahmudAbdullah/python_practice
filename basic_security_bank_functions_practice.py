@@ -4,7 +4,7 @@ bank_info = {"Sajid Mahmud": 350, "Sami Mahfuz": 900, "Sarah Fatima": 566}
     
 print(" _____ WELCOME TO THE BANK _____")
 
-global username # A global variable can be accessed and modified from anywhere in the program including functions
+global username # A global variable can be accessed and modified from anywhere in the program
 
 def login_function(): # contains all bank functions
     logged_in = False
