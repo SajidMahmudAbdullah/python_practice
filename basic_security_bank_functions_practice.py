@@ -1,5 +1,5 @@
 username_password = {"Sajid_Mahmud": "Saj123", "Sami_Mahfuz": "Sam123", "Sarah_Fatima": "Sar123"} 
-name_info = {} # will be used to add name combined with username later
+first_name_last_name = {"Sajid Mahmud": "Abdullah", "Sami Mahfuz": "Abdullah", "Sarah": "Fatima"}
 bank_info = {"Sajid Mahmud": 350, "Sami Mahfuz": 900, "Sarah Fatima": 566}
     
 print(" _____ WELCOME TO THE BANK _____")
@@ -80,6 +80,10 @@ while True:
             print(f" WELCOME {username}")
             bank_function()          
         elif options == "2":
+            first_name = input(" ENTER FIRST NAME : ")
+            last_name = input(" ENTER LAST NAME: ")
+            
+            
             new_username = input(" ENTER NEW USERNAME : ")
             while True:
                 if len(new_username) > 15 and " " in new_username:
